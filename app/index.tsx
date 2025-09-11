@@ -6,9 +6,13 @@ import { router } from "expo-router";
 import React from "react";
 
 
+
 export default function Index() {
   const buttonPress = () => {
     router.push("/signUp");
+  }
+  const buttonPress2 = () => {
+    router.push("/(tabs)/tabs/yourLibrary");
   }
 
   return (
@@ -28,7 +32,7 @@ export default function Index() {
           <Text style={styles.text2}>Password</Text>
         </View>
         <Text style={styles.FGtext}>Forgot Password?</Text>
-          <Pressable>
+          <Pressable onPress={buttonPress2}>
             <View style={styles.signInButton}>
               <Text style={styles.signInText}>Sign In</Text>
             </View>
