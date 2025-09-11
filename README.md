@@ -25,6 +25,7 @@
 ![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/UserProfile_Page.png)
 
 ### Drawer Navigation
+![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/Drawer.png)
 
 ### Your Library Page
 ![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/YourLibrary_Page.png)
