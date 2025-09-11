@@ -16,7 +16,8 @@
 
 
 ### Sign In Page:
-![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignIn_Page.png)[300]
+![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignIn_Page.png)
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignIn_Page.png" width="200">
 
 ### Sign Up Page
 ![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignUp_Page.png)
