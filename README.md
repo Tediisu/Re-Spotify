@@ -16,20 +16,19 @@
 
 
 ### Sign In Page:
-![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignIn_Page.png)
-<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignIn_Page.png" width="200">
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignIn_Page.png" width="300">
 
 ### Sign Up Page
-![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignUp_Page.png)
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignUp_Page.png" width="300">
 
 ### User Profile Page
-![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/UserProfile_Page.png)
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/UserProfile_Page.png" width="300">
 
 ### Drawer Navigation
-![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/Drawer.png)
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/Drawer.png" width="300">
 
 ### Your Library Page
-![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/YourLibrary_Page.png)
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/YourLibrary_Page.png" width="300">
 
 ### Settings Page
-![image alt](https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/Settings_Page.png)
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/Settings_Page.png" width="300">
