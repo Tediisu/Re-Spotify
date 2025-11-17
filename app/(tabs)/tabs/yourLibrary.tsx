@@ -298,7 +298,10 @@ export default function YourLibrary() {
               style={styles.listItem}
               onPress={() => router.push({ pathname: `../[playlist]`, params: { id: item.id.toString(), name: item.name } })}
             >
-              <View style={styles.listThumb} />
+              <View style={styles.listThumb} >
+                <Image source={require("@/assets/images/cat.jpg")} style={styles.listThumb}/>
+              </View>
+              
               <View style={styles.listTextContainer}>
                 <Text style={styles.listText}>{item.name}</Text>
                 <Text style={styles.listSubText}>Playlist • User</Text>
@@ -335,31 +338,151 @@ export default function YourLibrary() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, paddingTop: 25, backgroundColor: "black" },
-  headerBox: { flex: 1, backgroundColor: "#212121" },
-  headerbox1: { flex: 1.5, flexDirection: "row", alignItems: "center", justifyContent: "space-between", padding: 10 },
-  profilePic: { width: 50, height: 50, borderRadius: 25, backgroundColor: "blue", marginRight: 15 },
-  hBox: { fontSize: 22, fontWeight: "bold", flex: 1, color: "white" },
-  iconsRight: { flexDirection: "row", alignItems: "center", gap: 20 },
-  headerbox2: { flex: 1 },
-  scrollContent: { paddingHorizontal: 10, gap: 5, alignItems: "center" },
-  hBoxItem: { paddingVertical: 6, paddingHorizontal: 12, backgroundColor: "#595959", borderRadius: 20 },
-  hBoxText: { fontSize: 14, fontWeight: "500", color: "white" },
-  boxList: { flex: 5, backgroundColor: "#212121" },
-  hBoxList: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 15, paddingVertical: 8 },
-  hBoxListLeft: { flexDirection: "row", alignItems: "center", gap: 10 },
-  hBoxListText: { fontSize: 14, fontWeight: "500", color: "white" },
-  listItem: { flexDirection: "row", alignItems: "center", paddingVertical: 12, borderBottomColor: "#333", paddingLeft: 15 },
-  listThumb: { width: 80, height: 80, backgroundColor: "blue", marginRight: 15 },
-  listTextContainer: { flexDirection: "column" },
-  listText: { fontSize: 16, color: "white", fontWeight: "500" },
-  listSubText: { fontSize: 13, color: "#aaa" },
-  modalBackground: { flex: 1, backgroundColor: "rgba(0,0,0,0.6)" },
-  popupBox: { position: "absolute", bottom: 0, backgroundColor: "#222", width: "100%", paddingVertical: 20, borderTopLeftRadius: 20, borderTopRightRadius: 20 },
-  optionBtn: { paddingVertical: 15, paddingHorizontal: 25 },
-  optionText: { color: "white", fontSize: 18 },
-  inputLabel: { color: "white", fontSize: 16, marginLeft: 20, marginBottom: 8 },
-  input: { backgroundColor: "#333", marginHorizontal: 20, borderRadius: 10, padding: 12, color: "white", fontSize: 16 },
-  addBtn: { backgroundColor: "#1DB954", marginHorizontal: 20, marginTop: 15, padding: 12, borderRadius: 10, alignItems: "center" },
-  addBtnText: { color: "black", fontSize: 16, fontWeight: "bold" },
+  container: { 
+    flex: 1, 
+    paddingTop: 25, 
+    backgroundColor: "black" 
+  },
+  headerBox: { 
+    flex: 1, 
+    backgroundColor: "#212121" 
+  },
+  headerbox1: { 
+    flex: 1.5, 
+    flexDirection: "row", 
+    alignItems: "center", 
+    justifyContent: "space-between", 
+    padding: 10 
+  },
+  profilePic: { 
+    width: 50, 
+    height: 50, 
+    borderRadius: 25, 
+    backgroundColor: "blue", 
+    marginRight: 15 
+  },
+  hBox: { 
+    fontSize: 22, 
+    fontWeight: "bold", 
+    flex: 1, 
+    color: "white" 
+  },
+  iconsRight: { 
+    flexDirection: "row", 
+    alignItems: "center", 
+    gap: 20 
+  },
+  headerbox2: { 
+    flex: 1 
+  },
+  scrollContent: { 
+    paddingHorizontal: 10, 
+    gap: 5, 
+    alignItems: "center" 
+  },
+  hBoxItem: { 
+    paddingVertical: 6, 
+    paddingHorizontal: 12, 
+    backgroundColor: "#595959", 
+    borderRadius: 20 
+  },
+  hBoxText: { 
+    fontSize: 14, 
+    fontWeight: "500", 
+    color: "white" 
+  },
+  boxList: { 
+    flex: 5, 
+    backgroundColor: "#212121" 
+  },
+  hBoxList: { 
+    flexDirection: "row", 
+    alignItems: "center", 
+    justifyContent: "space-between", 
+    paddingHorizontal: 15, 
+    paddingVertical: 8 
+  },
+  hBoxListLeft: { 
+    flexDirection: "row", 
+    alignItems: "center", 
+    gap: 10 
+  },
+  hBoxListText: { 
+    fontSize: 14, 
+    fontWeight: "500", 
+    color: "white" 
+  },
+  listItem: { 
+    flexDirection: "row", 
+    alignItems: "center", 
+    paddingVertical: 12, 
+    borderBottomColor: "#333", 
+    paddingLeft: 15 
+  },
+  listThumb: { 
+    width: 80, 
+    height: 80, 
+    backgroundColor: "blue", 
+    marginRight: 15 
+  },
+  listTextContainer: { 
+    flexDirection: "column" 
+  },
+  listText: { 
+    fontSize: 16, 
+    color: "white",
+    fontWeight: "500" 
+  },
+  listSubText: { 
+    fontSize: 13, 
+    color: "#aaa" 
+  },
+  modalBackground: { 
+    flex: 1, 
+    backgroundColor: "rgba(0,0,0,0.6)" 
+  },
+  popupBox: { 
+    position: "absolute", 
+    bottom: 0, 
+    backgroundColor: "#222", 
+    width: "100%", 
+    paddingVertical: 20, 
+    borderTopLeftRadius: 20, 
+    borderTopRightRadius: 20 
+  },
+  optionBtn: { 
+    paddingVertical: 15, 
+    paddingHorizontal: 25 
+  },
+  optionText: { 
+    color: "white", 
+    fontSize: 18 
+  },
+  inputLabel: { 
+    color: "white", 
+    fontSize: 16, 
+    marginLeft: 20, 
+    marginBottom: 8 
+  },
+  input: { 
+    backgroundColor: "#333", 
+    marginHorizontal: 20, 
+    borderRadius: 10, 
+    padding: 12, 
+    color: "white", 
+    fontSize: 16 
+  },
+  addBtn: { 
+    backgroundColor: "#1DB954", 
+    marginHorizontal: 20, 
+    marginTop: 15, 
+    padding: 12, 
+    borderRadius: 10, 
+    alignItems: "center" 
+  },
+  addBtnText: { 
+    color: "black", 
+    fontSize: 16, 
+    fontWeight: "bold" 
+  },
 });

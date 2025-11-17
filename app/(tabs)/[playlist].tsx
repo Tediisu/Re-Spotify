@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, Pressable, FlatList, StyleSheet, Dimensions } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
+import { Image } from "expo-image";
+
 
 const { width } = Dimensions.get("window");
 
@@ -43,6 +45,12 @@ export default function Playlist() {
       <Pressable style={styles.backButton} onPress={() => router.back()}>
         <Text style={styles.backText}>← Back</Text>
       </Pressable>
+    <View style={{ alignItems: "center", marginBottom: 20 }}>
+      <Image 
+        source={require("@/assets/images/cat.jpg")} 
+        style={styles.thumbNail} 
+      />
+    </View>
 
       {/* Playlist Header */}
       <View style={styles.headerBox}>
@@ -63,7 +71,12 @@ export default function Playlist() {
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item, index }) => (
           <View style={styles.songItem}>
-            <View style={styles.songThumb} />
+            <View style={styles.songThumb}>
+              <Image 
+                source={require("@/assets/images/cat.jpg")} 
+                style={styles.songThumb} 
+              />
+            </View>
             <View style={styles.songTextContainer}>
               <Text style={styles.songTitle}>
                 {index + 1}. {item.name}
@@ -78,22 +91,90 @@ export default function Playlist() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#121212", paddingTop: 25 },
-  backButton: { marginLeft: 15, marginBottom: 10 },
-  backText: { color: "white", fontSize: 16, fontWeight: "500" },
+  container: { 
+    flex: 1, 
+    backgroundColor: "#121212", 
+    paddingTop: 25 
+  },
+  backButton: { 
+    marginLeft: 15, 
+    marginBottom: 10 
+  },
+  backText: { 
+    color: "white", 
+    fontSize: 16, 
+    fontWeight: "500" 
+  },
 
-  headerBox: { alignItems: "center", paddingBottom: 20 },
-  playlistTitle: { fontSize: 28, fontWeight: "bold", color: "white", marginBottom: 15 },
-
-  buttonRow: { flexDirection: "row", alignItems: "center", gap: 10 },
-  addBtn: { backgroundColor: "#1DB954", paddingHorizontal: 20, paddingVertical: 10, borderRadius: 30 },
-  addBtnText: { color: "black", fontWeight: "bold", fontSize: 16 },
-  undoBtn: { backgroundColor: "#888", paddingHorizontal: 20, paddingVertical: 10, borderRadius: 30 },
-  undoBtnText: { color: "white", fontWeight: "bold", fontSize: 16 },
-
-  songItem: { flexDirection: "row", alignItems: "center", paddingVertical: 12, paddingHorizontal: 20, borderBottomColor: "#222", borderBottomWidth: 1 },
-  songThumb: { width: 60, height: 60, backgroundColor: "blue", marginRight: 15, borderRadius: 4 },
-  songTextContainer: { flexDirection: "column", flex: 1 },
-  songTitle: { fontSize: 16, color: "white", fontWeight: "500" },
-  songSubText: { fontSize: 13, color: "#aaa", marginTop: 4 },
+  headerBox: { 
+    alignItems: "center", 
+    paddingBottom: 20 
+  },
+  playlistTitle: { 
+    fontSize: 28, 
+    fontWeight: "bold", 
+    color: "white", 
+    marginBottom: 15 
+  },
+  buttonRow: { 
+    flexDirection: "row", 
+    alignItems: "center", 
+    gap: 10 
+  },
+  addBtn: { 
+    backgroundColor: "#1DB954", 
+    paddingHorizontal: 20, 
+    paddingVertical: 10, 
+    borderRadius: 30 
+  },
+  addBtnText: { 
+    color: "black", 
+    fontWeight: "bold", 
+    fontSize: 16 
+  },
+  undoBtn: { 
+    backgroundColor: "#888", 
+    paddingHorizontal: 20, 
+    paddingVertical: 10, borderRadius: 30 
+  },
+  undoBtnText: { 
+    color: "white", 
+    fontWeight: "bold", 
+    fontSize: 16 
+  },
+  songItem: { 
+    flexDirection: "row", 
+    alignItems: "center", 
+    paddingVertical: 12, 
+    paddingHorizontal: 20, 
+    borderBottomColor: "#222", 
+    borderBottomWidth: 1 
+  },
+  songThumb: { 
+    width: 60, 
+    height: 60, 
+    backgroundColor: "blue", 
+    marginRight: 15, 
+    borderRadius: 4 
+  },
+  songTextContainer: { 
+    flexDirection: "column", 
+    flex: 1 
+  },
+  songTitle: { 
+    fontSize: 16, 
+    color: "white", 
+    fontWeight: "500" 
+  },
+  songSubText: { 
+    fontSize: 13, 
+    color: "#aaa", 
+    marginTop: 4 
+  },
+  thumbNail: { 
+    width: 250, 
+    height: 250, 
+    backgroundColor: "blue", 
+    marginRight: 15,
+  },
 });
