@@ -35,7 +35,12 @@ The app is designed to replicate Spotify’s overall layout and user experience,
 It allows existing users to log in using their email and password.
 
 ### Sign Up Page
-<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignUp_Page.png" width="150">
+<p float="left">
+   <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignUp_Page.png" width="150">
+   <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/signUp2%20(1).png" width="150">
+   <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/genre.png" width="150">
+   <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/artistList.png" width="150">
+</p>
 It enables new users to create an account by providing basic details like username, email and password.
 
 ### User Profile Page
