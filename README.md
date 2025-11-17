@@ -31,15 +31,15 @@ It showcases the main interface and navigation flow, including the sign in, sign
 The app is designed to replicate Spotify’s overall layout and user experience, focusing on interface design and screen transitions rather than backend functionality.
 
 ### Sign In Page:
-<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignIn_Page.png" width="300">
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignIn_Page.png" width="150">
 It allows existing users to log in using their email and password.
 
 ### Sign Up Page
-<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignUp_Page.png" width="300">
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/SignUp_Page.png" width="150">
 It enables new users to create an account by providing basic details like username, email and password.
 
 ### User Profile Page
-<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/UserProfile_Page.png" width="300">
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/UserProfile_Page.png" width="150">
 This displays the user’s personal information such as username, email, and profile picture.
 
 ### Drawer Navigation
@@ -47,9 +47,9 @@ This displays the user’s personal information such as username, email, and pro
 This acts as a navigation menu that links to the Library and Settings pages.
 
 ### Your Library Page
-<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/YourLibrary_Page.png" width="300">
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/YourLibrary_Page.png" width="150">
 This displays the user’s saved playlists, songs, and artists.
 
 ### Settings Page
-<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/Settings_Page.png" width="300">
+<img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/Settings_Page.png" width="150">
 This is where the users can customize the app preferences and account options.
