@@ -125,6 +125,17 @@ export default function Layout() {
         name="profile"
         options={{ href: null }}
       />
+      <Tabs
+      initialRouteName="playlist"
+      screenOptions={{
+        headerShown: false,
+        tabBarLabelStyle: {
+          fontSize: 10
+        },
+      }}
+    ></Tabs>
     </Tabs>
+    
+    
   );
 }

@@ -3,10 +3,15 @@ import React from 'react'
 
 export default function create() {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>create</Text>
     </View>
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+
+  },
+
+})
