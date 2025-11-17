@@ -57,6 +57,8 @@ This is where the users can customize the app preferences and account options.
 <p float="left">
    <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/options.png" width="150">
    <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/addList.png" width="150">
-   <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/added.png" img="150">
-   <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/clearList.png" img="150">
+   <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/added.png" width="150">
+   <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/clearList.png" width="150">
 </p>
+The images above showcases the application to dynamically add a playlist, undo and clear all the playlists.
+
