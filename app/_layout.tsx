@@ -40,6 +40,22 @@ export default function RootLayout() {
           headerShown: false, 
         }}
       />
+      <Drawer.Screen 
+        name="genres"
+        options={{
+          drawerLabel: "Settings",
+          headerShown: false,
+          swipeEnabled: false,
+        }}
+      />
+      <Drawer.Screen 
+        name="artist"
+        options={{
+          drawerLabel: "Settings",
+          headerShown: false,
+          swipeEnabled: false,
+        }}
+      />
     </Drawer>
   );
 }
