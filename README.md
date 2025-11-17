@@ -42,6 +42,7 @@ It allows existing users to log in using their email and password.
    <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/artistList.png" width="150">
 </p>
 It enables new users to create an account by providing basic details like username, email and password.
+After the user inputed is credentials, the application will ask the user for the list of genres and artist of his choosing.
 
 ### User Profile Page
 <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/UserProfile_Page.png" width="150">
@@ -67,4 +68,5 @@ This is where the users can customize the app preferences and account options.
    <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/clearList.png" width="150">
 </p>
 The images above showcases the application to dynamically add a playlist, undo and clear all the playlists.
+And it will also add songs and undo.
 
