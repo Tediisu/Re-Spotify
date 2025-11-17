@@ -54,6 +54,7 @@ This displays the user’s saved playlists, songs, and artists.
 <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/Settings_Page.png" width="150">
 This is where the users can customize the app preferences and account options.
 
+### The use of AsyncStorage
 <p float="left">
    <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/options.png" width="150">
    <img src="https://github.com/Tediisu/Re-Spotify/blob/main/reSpotify/addList.png" width="150">
